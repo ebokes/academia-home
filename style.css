@@ -1,0 +1,63 @@
+body{
+ margin:0;
+ padding:0;
+ font-family: 'Heebo', sans-serif;
+ color: white;
+ background-image: url(img/student.jpg);
+ height: 135vh;
+ background-position: center;
+ background-size: cover;
+}
+.main-container{
+ padding: 20px 50px
+}
+.logo{
+ text-transform: uppercase;
+}
+nav{
+ width: 100%;
+ height: 40px;
+ background-color: rgba(255, 255, 255, 0.2);
+ position: relative;
+}
+nav ul{
+ display: flex;
+ list-style: none;
+ align-items: center;
+ align-content: space-between;
+}
+nav ul li{
+ padding: 0 10px;
+ 
+}
+nav ul li a{
+ text-decoration: none;
+ color:white;
+}
+.trapezium{
+ float: right;
+ height: 0px;
+ width: 20px;
+ border-bottom: 60px solid #1eb2a6;
+ border-left: 20px solid transparent;
+ padding-right: 160px;
+ text-transform: uppercase;
+ text-align:left;
+ /* position: absolute; */
+}
+nav div ul li{
+ padding: 0 2px;
+ font-weight: 600;
+ font-size: 0.8em;
+}
+.rectangle{
+ /* height: 20px; */
+ 
+}
+/* .triangle{
+ height: 0;
+ width:20px;
+ border-bottom: 60px solid #1eb2a6;
+ border-left: 60px solid transparent;
+ padding-right:120px;
+} */
